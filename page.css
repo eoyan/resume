@@ -1,0 +1,29 @@
+
+.dotted {
+    border-style: dotted;
+    border: 2px;
+    box-shadow: 2px -2px 5px 100px whitesmoke;
+
+    
+    font-style: "Pretendard Regular";
+    color:#fff;
+    text-shadow: 0 0 10px rgba(21, 255, 0, 0.7);
+    animation:neon-filcker 1s infinite;
+
+}
+
+@keyframes neon-flicker {
+    
+    0% {
+        text-shadow: 
+        0 0 10px rgb(149, 255, 0), 
+        0 0 20px rgba(149, 255, 0), 
+        0 0 30px rgba(149, 255, 0);
+    }
+    100% {
+        text-shadow: 
+        0 0 20px rgba(149, 255, 0, 0.7), 
+        0 0 30px rgba(149, 255, 0, 0.7), 
+        0 0 400px rgba(149, 255, 0, 0.7);
+    }
+}
